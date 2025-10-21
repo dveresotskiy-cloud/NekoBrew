@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffe6f0;
+  color: #7b3b4c;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff0f6;
+  border-bottom: 2px solid #f2bfd2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-placeholder {
+  width: 45px;
+  height: 45px;
+  background-color: #f9cdd7;
+  border-radius: 8px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #7b3b4c;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.nav a.active {
+  text-decoration: underline;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #9b4d63;
+}
+
+.content {
+  flex: 1;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #7b3b4c;
+}
+
+.menu-buttons button {
+  background: none;
+  border: 2px solid #d19aaa;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #7b3b4c;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu-buttons button:hover {
+  background-color: #fbd2df;
+}
+
+.special {
+  margin: 40px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.special h2 {
+  background-color: #e6aabf;
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.special-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.img-placeholder {
+  width: 160px;
+  height: 120px;
+  background-color: #f9cdd7;
+  border-radius: 10px;
+}
+
+.text-placeholder .line {
+  height: 10px;
+  background-color: #f5b9cb;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.text-placeholder .short { width: 80%; }
+.text-placeholder .shorter { width: 60%; }
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.categories h3 {
+  margin-bottom: 10px;
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  background-color: #f9cdd7;
+  border-radius: 10px;
+  margin: 8px auto;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.booking-form input {
+  padding: 12px;
+  border: 2px solid #e1a3b6;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  background-color: #cc8398;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #b36a80;
+}
+
+.footer {
+  border-top: 2px solid #f2bfd2;
+  background-color: #fff0f6;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #7b3b4c;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
